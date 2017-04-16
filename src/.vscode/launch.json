@@ -1,0 +1,25 @@
+{
+	"version": "0.0.1",
+	"configurations": [
+		{
+			"name": "Life - Game Launch",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "Enter ${workspaceRoot}/main",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceRoot}",
+			"environment": [],
+			"externalConsole": true,
+			"linux": {
+				"MIMode": "gdb"
+			},
+			"osx": {
+				"MIMode": "lldb"
+			},
+			"windows": {
+				"MIMode": "gdb"
+			}
+		}
+	]
+}
